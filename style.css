@@ -203,7 +203,9 @@ body {
     .sidebar{
         width: 100%;
     }
-    .navbar-nav .nav-item{
-        width: 97%;
+}
+@media (max-width: 350px){
+    .header__logo__brand-name{
+        width: 190px;
     }
 }
