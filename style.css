@@ -176,11 +176,13 @@ body {
 @media (max-width: 1250px){
     .sidebar{
         width: 25%;
+        height: 100%
     }
 }
 @media (max-width: 1150px){
     .sidebar{
         width: 30%;
+        height: 100%
     }
 }
 @media (max-width: 992px){
@@ -192,20 +194,24 @@ body {
 @media (max-width: 768px){
     .sidebar{
         width: 50%;
+        height: 100%
     }
 }
 @media (max-width: 576px){
     .sidebar{
         width: 80%;
+        height: 100%
     }
 }
 @media (max-width: 395px){
     .sidebar{
         width: 100%;
+        height: 100%
     }
 }
 @media (max-width: 350px){
     .header__logo__brand-name{
         width: 190px;
+        height: 100%
     }
 }
