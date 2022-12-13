@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sidebar</title>
+</head>
+
+<body>
+
+    <!-- Header  -->
+
+    <div class="box">
+        <header class="header">
+            <div class="header__logo">
+                <img class="header__logo__brand-name" id="header__logo__brand-name" src="./logo.png" width="270"
+                    alt="logo">
+            </div>
+            <div class="header__menu">
+                <button type="submit" class="header__menu-btn" id="header__menu-btn">
+                    <i class="bi bi-text-right"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Overlay  -->
+
+        <div class="overlay" id="overlay"></div>
+
+        <!-- Sidebar  -->
+
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar__child">
+                <div class="sidebar__child-exit">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <div class="sidebar__child__sidebar-logo">
+                    <img src="./logo.png" alt="logo">
+                </div>
+                <input type="text" class="sidebar__child-general" placeholder="Search...">
+
+                <!-- Navs  -->
+
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-house"></i> Dashboard</a>
+                    </li>
+                    <li class=" sidebar__child-general">
+                        <a class="nav-link" href="#"> <i class="bi bi-bar-chart"></i> Revenue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-bell"></i> Notifactions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-pie-chart"></i> Analytics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-heart"></i> Likes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-wallet"></i> Wallets</a>
+                    </li>
+                </ul>
+
+                <!-- Logout  -->
+
+                <div class="logout">
+                    <a class="logout-link" href="#"><i class="bi bi-box-arrow-left"></i> Logout</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
