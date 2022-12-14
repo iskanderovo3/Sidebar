@@ -214,8 +214,13 @@ body {
         width: 190px;
         height: 100%
     }
+.navbar-nav .nav-item{
+        padding: 5px;
+    }
+}
+@media (max-width: 250px){
     .sidebar__child-exit{
         position: relative;
-        right: 2rem;
+        right: 3rem;
     }
 }
